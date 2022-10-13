@@ -11,6 +11,8 @@
     flex-wrap: wrap;
     background-color: #1f2937;
     color: white;
+    padding: 15px;
+    padding-left: 200px;
 }
 
 
@@ -20,7 +22,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 15px;
+    
 }
 
 #title{
@@ -30,7 +32,7 @@
 ul{
     display: flex;
     list-style: none;
-    gap: 8px;
+    gap: 18px;
     
 }
 
@@ -41,7 +43,7 @@ ul{
 }
 
 .upper-text{
-    
+    padding-top: 70px;
 }
 
 .main-text{
@@ -50,4 +52,38 @@ ul{
 
 .sec-text{
     font-size: 18px;
+    margin-top: 80px;
 }
+
+#almeida{
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.button{
+    background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  /* display: inline-block; */
+  font-size: 18px;
+  margin: 24px 0;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2992f6; 
+    color:black;
+  }
+
+  ul> li > a:hover {
+    color: hotpink;
+  }
+  
+  ul > li > a:visited {
+    text-decoration: none;
+  }
+  
