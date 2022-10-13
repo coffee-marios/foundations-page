@@ -86,4 +86,42 @@ ul{
   ul > li > a:visited {
     text-decoration: none;
   }
-  
+
+.middle-part{
+    padding-bottom: 100px;
+}
+
+.mycenter{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 25px;
+}
+
+.mypictures{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    
+}
+
+
+.pictures > img{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+.mypictures > .pictures{
+    text-align: center;
+    background-color: aquamarine;
+    color: green;
+    height: 300px;
+    width: 300px;
+}
+
+.portraits{
+    object-fit: contain;
+}
