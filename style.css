@@ -1,17 +1,26 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    color: white;
+}
+
+
 .header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
     color: white;
     padding: 15px;
-
-
 }
 
 #title{
@@ -22,10 +31,23 @@ ul{
     display: flex;
     list-style: none;
     gap: 8px;
+    
 }
 
 .header > ul > li > a{
     font-size: 18px;
     color: white;
     text-decoration: none;
+}
+
+.upper-text{
+    
+}
+
+.main-text{
+    font-size: 48px;
+}
+
+.sec-text{
+    font-size: 18px;
 }
