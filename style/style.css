@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
 }
 
 
@@ -141,4 +142,28 @@ ul{
 figcaption{
     padding: 5px;
     text-align: justify;
+}
+
+.third-part{
+    background-color: #e5e7eb;
+    padding: 80px 180px;
+    text-align: center;
+    line-height: 2;
+}
+
+
+blockquote{
+    
+    
+    
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#writer{
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
 }
