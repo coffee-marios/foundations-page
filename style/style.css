@@ -174,7 +174,7 @@ blockquote{
     justify-content: space-between;
     align-items: center;
     padding: 25px;
-    background-color: #2992f6;
+    background-color: #3882f6;
     margin: 50px 150px;
     line-height: 1.5;
     border-radius: 15px;
@@ -198,6 +198,21 @@ blockquote{
     border: 2px solid white;
     border-radius: 15px;
     color: white;
-    background-color:#2992f6;
+    background-color:#3882f6;
     display: inline;
+    cursor: pointer;
+}
+
+#inl-button:hover{
+    color: black;
+    background-color:#2992f6; 
+}
+
+footer{
+    padding: 30px 55px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    
 }
