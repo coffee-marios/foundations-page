@@ -1,9 +1,9 @@
-# foundations-page
+# Project: Landing Page
 
-A simple webpage 
+A simple webpage using only html and CSS. 
 
 
-PHOTOS:
+CREDITS:
 
 Photo by Guilherme  Almeida : https://www.pexels.com/photo/woman-sitting-and-smiling-1858175/
 
